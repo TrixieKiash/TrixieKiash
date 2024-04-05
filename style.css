@@ -1,0 +1,83 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body { 
+
+    background-color:rgb(6, 33, 30)    ;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    color: white;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+   padding: 2rem;
+   margin: 1rem 0px;
+   text-align: center;
+
+}
+.caption figcaption{
+    margin-top:10px;
+
+
+}
+
+.title {
+    margin-top: -40px;
+     margin-bottom: 1rem;
+
+     }
+.description{
+    margin-top: 10px;
+
+}
+.tribute {
+      display: grid;
+      grid-template-columns: 2fr 2fr ;
+      background-color:rgb(6, 33, 30);
+     color: white;
+      align-items: center;
+      margin-top: 10px;
+}
+
+.tribute blockquote{
+    text-align:center;
+    font-size: 2rem;
+}
+
+
+.tribute img{
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+ .bio{
+    font-size: large;
+ }
+ .bio h2{ 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+
+ }
+ .bio ol{ 
+    margin-top: 10px;
+    margin-left: 20px;
+
+    
+}
+    
+ .bio ul {
+    margin-left: 10px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+ }
